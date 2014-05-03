@@ -1,3 +1,5 @@
+package edu.macalester.dailyfeast;
+
 /**
  * Created by Andrew on 4/7/14.
  */
@@ -22,8 +24,5 @@ public class PiperText {
 
     public PiperText () {
 
-
     }
-
-
 }

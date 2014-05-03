@@ -15,18 +15,15 @@ public class Utils {
 
     static String[] extractData(String input){
 
-        // 1:Food 2:place 3:time
+        // 0:description 1:place 2:time
         String[] output = new String[3];
 
-        //TODO: Deal w words like 'teacher' erroneously returning TRUE because of 'tea' substring and shit like that.
-        //TODO: singularity & plurality
-        String foodRegex = "(?<=(^| ))([Bb]reakfast|[Ll]unch|[Dd]inner|[Ss]nack[s]|[Rr]efreshments|[Pp]ie|[Cc](ake|offee|hocolate|andy)|[Ii]ce cream]|[Tt]ea|[Dd]rinks|[Pp]izza])(?=($| |\\.|\\!|\\?))";
-        //TODO: Add accommodation for room numbers like "HUM204" or "OLRI150"
-        String placeRegex = "(?<=(^| ))([Oo]lin[ -][Rr]ice|[Cc]ampus[ -][Cc]enter|[Cc]arnegie|[Oo]ld [Mm]ain|[Mm]arkim [Hh]all|[Kk]agin|GSRC)(?=($| |\\.|\\!|\\?))";
-        //TODO: Add RegEx for times written w only 1 digit (e.g. '5 p.m.' or '1 o'clock')
-        //TODO: If there are multiple times listed in the event, find a way to pick one!
-        String timeRegex = "(?<=(^| ))([Nn]oon|[0-9]:[0-9][0-9])(?=($| |\\.|\\!|\\?))";
-        //TODO: RSVP?
+        String lookBehind = "(?<=(^| ))";
+        String lookAhead = "(?=($| |\\.|\\!|\\?|\\,|\\;|\\:))";
+
+        String foodRegex = lookBehind + "([Bb]reakfast|[Ll]unch|[Dd]inner|[Ss]nack[s]|[Bb]agels|[Rr]efreshments|[Pp]ie|[Cc](ake|offee|hocolate|andy)|[Ii]ce cream]|[Tt]ea|[Dd]rinks|[Pp]izza])" + lookAhead;
+        String placeRegex = lookBehind + "([Oo]lin[ -][Rr]ice|[Cc]ampus[ -][Cc]enter|[Cc]arnegie|[Oo]ld [Mm]ain|[Hh]all [Oo]f [Ff]ame [Rr]oom|[Ff]rench [Mm]eadow [Bb]akery|[Mm]arkim [Hh]all|[Kk]agin|GSRC|[Dd]eWitt [Ww]allace [Ll]ibrary)" + lookAhead;
+        String timeRegex = lookBehind + "([0-9]{1,2}(:[0-9][0-9])?(( a.m.)|( p.m.))?|(noon))(( to )|( ?- ?))([0-9]{1,2}(:[0-9][0-9])?(( a.m.)|( p.m.))?|(noon))|([0-9]{1,2}:[0-9]{2,2}( a.m.| p.m.)?)|([0-9]{1,2}( a.m.| p.m.))" + lookAhead;
 
         String sentenceEndRegex = ("(?<=[\\.\\!\\?]) (?=[A-Z0-9])");
         String sentences[] = input.split(sentenceEndRegex);

@@ -45,12 +45,15 @@ public class Parse {
             String[] data = Utils.extractData(body);
             PiperEvent piperEvent = new PiperEvent();
 
+//            System.out.println("TITLE: " + title);
+//            System.out.println("BODY: " + body);
+
             piperEvent.setTitle(title);
-            piperEvent.setDescription(data[0]);
+            piperEvent.setFoodDescription(data[0]);
             piperEvent.setPlace(data[1]);
             piperEvent.setTime(data[2]);
 
-            if (piperEvent.getDescription() != null){
+            if (piperEvent.getFoodDescription() != null){
                 piperEvents.add(piperEvent);
             }
 

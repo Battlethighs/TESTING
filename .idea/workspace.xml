@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91c811db-305a-4eab-97da-8cf1584e4fb7" name="Default" comment="" />
+    <list default="true" id="91c811db-305a-4eab-97da-8cf1584e4fb7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java" />
+      <change type="MOVED" beforePath="C:\Users\Andrew\IdeaProjects\TESTING\src\PiperText.java" afterPath="$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java" afterPath="$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java" afterPath="$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TESTING.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,32 +72,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Parse.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Parse.java">
+      <file leaf-file-name="RunParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="21" selection-start="934" selection-end="934" vertical-scroll-proportion="0.5182482" vertical-offset="402" max-vertical-offset="969">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#680#691#0" expanded="true" />
-              </folding>
+            <state line="6" column="3" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1190">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PiperText.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PiperText.java">
+        <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="20" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PiperEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="42" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="41" selection-start="977" selection-end="977" vertical-scroll-proportion="0.52554744" vertical-offset="137" max-vertical-offset="969">
               <folding>
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,11 +126,20 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/PiperText.java" />
         <option value="$PROJECT_DIR$/src/Parse.java" />
+        <option value="$PROJECT_DIR$/src/PiperText.java" />
+        <option value="$PROJECT_DIR$/src/PiperEvent.java" />
+        <option value="$PROJECT_DIR$/src/org/macalester/dailyfeast/PiperEvent.java" />
+        <option value="$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java" />
+        <option value="$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java" />
+        <option value="$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java" />
+        <option value="$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java" />
       </list>
     </option>
   </component>
@@ -116,7 +149,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -175,6 +208,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dailyfeast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -190,14 +227,38 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebScraper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Parse">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.macalester" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RunParser">
     <configuration default="false" name="Parse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parse" />
+      <option name="MAIN_CLASS_NAME" value="edu.macalester.dailyfeast.Parse" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TESTING" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RunParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.macalester.dailyfeast.RunParser" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -306,12 +367,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Parse" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RunParser" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Parse" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.RunParser" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Parse" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -335,16 +398,34 @@
       <created>1396543206022</created>
       <updated>1396543206022</updated>
       <workItem from="1396543212232" duration="3664000" />
-      <workItem from="1396887342204" duration="8738000" />
+      <workItem from="1396887342204" duration="10858000" />
+      <workItem from="1396991309393" duration="7161000" />
+      <workItem from="1397495388399" duration="3912000" />
+      <workItem from="1397855676198" duration="591000" />
+      <workItem from="1398056899161" duration="1140000" />
+      <workItem from="1398129651853" duration="61000" />
+      <workItem from="1398296054359" duration="1271000" />
+      <workItem from="1398645829407" duration="4053000" />
+      <workItem from="1398704973034" duration="3643000" />
+      <workItem from="1399148573828" duration="605000" />
     </task>
+    <task id="LOCAL-00001" summary="in progress">
+      <created>1397007612480</created>
+      <updated>1397007612480</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Functioning parser!">
+      <created>1398057971997</created>
+      <updated>1398057971997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12402000" />
+    <option name="totallyTimeSpent" value="36959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -356,18 +437,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2326284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48892674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18051359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35434413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -383,19 +464,19 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23279649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3191824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -410,45 +491,358 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <MESSAGE value="in progress" />
+    <MESSAGE value="Functioning parser!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functioning parser!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Parse.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="41" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="969">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="246" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1469" selection-end="1570" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="74" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="81" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="918">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="57" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="74" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="92" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="57" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="74" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="92" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="57" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="74" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="92" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="44" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="92" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="44" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="92" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="38" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="8" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1020">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="103" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="748">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#680#691#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PiperText.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/RunParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
+        <state line="6" column="3" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parse.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="21" selection-start="934" selection-end="934" vertical-scroll-proportion="0.5182482" vertical-offset="402" max-vertical-offset="969">
+        <state line="9" column="42" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/PiperText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Parse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/macalester/dailyfeast/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="41" selection-start="977" selection-end="977" vertical-scroll-proportion="0.52554744" vertical-offset="137" max-vertical-offset="969">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#680#691#0" expanded="true" />
           </folding>
         </state>
       </provider>
