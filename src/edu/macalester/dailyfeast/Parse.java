@@ -44,16 +44,15 @@ public class Parse {
             String body = piperText.getBody();
             String[] data = Utils.extractData(body);
             PiperEvent piperEvent = new PiperEvent();
-
-//            System.out.println("TITLE: " + title);
-//            System.out.println("BODY: " + body);
+            boolean isToday = Utils.isToday(title,body);
 
             piperEvent.setTitle(title);
             piperEvent.setFoodDescription(data[0]);
             piperEvent.setPlace(data[1]);
             piperEvent.setTime(data[2]);
+            piperEvent.setBody(body);
 
-            if (piperEvent.getFoodDescription() != null){
+            if (piperEvent.getFoodDescription() != null && piperEvent.getFoodDescription().equals("") == false && isToday){
                 piperEvents.add(piperEvent);
             }
 
